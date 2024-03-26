@@ -21,9 +21,7 @@ sys.path.append(openood_path)
 from openood.networks import ResNet18_32x32, ResNet18_224x224 
 import openood.utils 
 from openood.datasets import get_dataloader, get_ood_dataloader
-#from openood.evaluation_api import Evaluator
-#from openood.evaluators import get_evaluator
-#from openood.networks import get_network
+
 
 
 ''' We work with the field 'targets' in datasets.
